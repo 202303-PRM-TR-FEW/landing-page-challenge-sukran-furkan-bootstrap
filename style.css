@@ -11,3 +11,21 @@
     border-top-right-radius: 150px;
     border-bottom-left-radius: 150px;
 }
+
+#mobile-phones {
+    margin-top: -3rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    #mobile-phones {
+        margin-top: -5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #mobile-phones {
+        margin-top: -7.5rem;
+    }
+}
