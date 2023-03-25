@@ -1,0 +1,13 @@
+.state-of-art-container {
+    background-color: #3a3d5cf3;
+    background-image: url(./images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    mix-blend-mode: normal;
+    background-position: 0 -15rem;
+}
+
+#state-of-the-art {
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
