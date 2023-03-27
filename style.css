@@ -1,46 +1,24 @@
 body {
     font-family: 'Overpass', sans-serif !important;
-   
-    
-    
-    
-    
-    }
-
-    #top {
-
-        padding-top: 6rem;
-
-    }
-
-    .btn {
-
-background-color: hsl(356, 100%, 66%);
-border: 0px;
-
-
-
-
-    }
-
-   
-    .btn:hover {
-
-background-color: whitesmoke;
-color: hsl(355, 91%, 52%) ;
-transform: scale(1.2);
 }
 
+#top {
+    padding-top: 6rem;
+}
 
+.btn {
+    background-color: hsl(356, 100%, 66%);
+    border: 0px;
+}
 
+.btn:hover {
+    background-color: whitesmoke;
+    color: hsl(355, 91%, 52%);
+    transform: scale(1.2);
+}
 
 .state-of-art-container {
     background-color: #3a3d5cf3;
-    /* background-image: url(./images/bg-pattern-circles.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    mix-blend-mode: normal;
-    background-position: 0 -15rem; */
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
 }
@@ -51,15 +29,6 @@ transform: scale(1.2);
     background-size: cover;
     background-position: 0 -10rem;
 }
-
-/* 
-.laptop-section {
-    background-image: url(./images/illustration-laptop-mobile.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-} */
-
-
 
 .laptop-section__title {
     color: hsl(208, 49%, 24%);
@@ -86,4 +55,13 @@ transform: scale(1.2);
     #mobile-phones {
         margin-top: -7.5rem;
     }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
