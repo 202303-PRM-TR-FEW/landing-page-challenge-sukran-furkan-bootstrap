@@ -1,3 +1,7 @@
+body {
+    font-family: 'Overpass', sans-serif !important;
+}
+
 .state-of-art-container {
     background-color: #3a3d5cf3;
     /* background-image: url(./images/bg-pattern-circles.svg);
@@ -16,6 +20,20 @@
     background-position: 0 -10rem;
 }
 
+/* 
+.laptop-section {
+    background-image: url(./images/illustration-laptop-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+
+
+.laptop-section__title {
+    color: hsl(208, 49%, 24%);
+    font-weight: 600;
+}
+
 #mobile-phones {
     margin-top: -3rem;
 }
@@ -24,6 +42,10 @@
 
     #mobile-phones {
         margin-top: -5rem;
+    }
+
+    #laptop-desktop {
+        margin-left: -17.5rem;
     }
 }
 
