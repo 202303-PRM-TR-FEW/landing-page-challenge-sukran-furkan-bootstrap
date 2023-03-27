@@ -1,6 +1,38 @@
 body {
     font-family: 'Overpass', sans-serif !important;
+   
+    
+    
+    
+    
+    }
+
+    #top {
+
+        padding-top: 6rem;
+
+    }
+
+    .btn {
+
+background-color: hsl(356, 100%, 66%);
+border: 0px;
+
+
+
+
+    }
+
+   
+    .btn:hover {
+
+background-color: whitesmoke;
+color: hsl(355, 91%, 52%) ;
+transform: scale(1.2);
 }
+
+
+
 
 .state-of-art-container {
     background-color: #3a3d5cf3;
