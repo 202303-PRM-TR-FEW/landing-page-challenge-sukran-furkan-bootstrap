@@ -1,0 +1,35 @@
+.state-of-art-container {
+    background-color: #3a3d5cf3;
+    /* background-image: url(./images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    mix-blend-mode: normal;
+    background-position: 0 -15rem; */
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.state-of-art-container__image {
+    background-image: url(./images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -10rem;
+}
+
+#mobile-phones {
+    margin-top: -3rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    #mobile-phones {
+        margin-top: -5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #mobile-phones {
+        margin-top: -7.5rem;
+    }
+}
