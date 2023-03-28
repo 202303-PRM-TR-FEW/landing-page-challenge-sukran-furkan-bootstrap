@@ -15,6 +15,13 @@ body {
     border-bottom-left-radius: 100px;
 }
 
+.pattern-image {
+    background-image: url(./images/bg-pattern-intro-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -1vw -30vw;
+}
+
 .btn {
     background-color: hsl(356, 100%, 66%);
     border: 0px;
@@ -95,6 +102,10 @@ body {
 
     #mobile-phones {
         margin-top: -7.5rem;
+    }
+
+    .pattern-image {
+        background-position: -10vw 0vw;
     }
 }
 
