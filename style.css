@@ -1,9 +1,25 @@
+:root {
+    --primary-color: hsl(356, 100%, 66%);
+}
+
 body {
     font-family: 'Overpass', sans-serif !important;
 }
 
+.landing-bg-primary {
+    background-color: var(--primary-color);
+}
+
 #top {
     padding-top: 6rem;
+    border-bottom-left-radius: 100px;
+}
+
+.pattern-image {
+    background-image: url(./images/bg-pattern-intro-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -1vw -30vw;
 }
 
 .btn {
@@ -14,7 +30,7 @@ body {
 .btn:hover {
     background-color: whitesmoke;
     color: hsl(355, 91%, 52%);
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .state-of-art-container {
@@ -86,6 +102,10 @@ body {
 
     #mobile-phones {
         margin-top: -7.5rem;
+    }
+
+    .pattern-image {
+        background-position: -10vw 0vw;
     }
 }
 
