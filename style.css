@@ -1,9 +1,18 @@
+:root {
+    --primary-color: hsl(356, 100%, 66%);
+}
+
 body {
     font-family: 'Overpass', sans-serif !important;
 }
 
+.landing-bg-primary {
+    background-color: var(--primary-color);
+}
+
 #top {
     padding-top: 6rem;
+    border-bottom-left-radius: 100px;
 }
 
 .btn {
@@ -14,7 +23,7 @@ body {
 .btn:hover {
     background-color: whitesmoke;
     color: hsl(355, 91%, 52%);
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .state-of-art-container {
